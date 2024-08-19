@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePotion Alchemy</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Playwrite+BE+WAL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="menu">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CodePotion Alchemy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav mr-3">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Carousel-->
+  <div class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/mesa_com_pocoes.jpeg" class="d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/banner_pocoes.sT.jpeg" class="d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/bau_tesouros_pocoes.jpeg" class="d-block" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--Produtos (grid )-->
+  <section class="produtos">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/magestade_dourada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sabedoria Transcendental</h5>
+              <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nostrum ad sit
+                reiciendis facere eum fuga quo unde laboriosam?</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/maestria_arcana.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maestria Arcana</h5>
+              <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nostrum ad sit
+                reiciendis facere eum fuga quo unde laboriosam?</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/bafo_draconico.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bafo Dracônico</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/deus_vult.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vontade de Ferro</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/invisibilidade.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Invisibilidade</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/resiste_fogo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Resistencia a Fogo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/resiste_gelo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Resistencia a Gelo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/super_forca.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Super Força</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section class="quem somos">
+
+  </section>
+
+  <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
