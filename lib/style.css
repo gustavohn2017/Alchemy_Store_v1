@@ -11,6 +11,8 @@
 
 .produtos {
   margin-top: 2%;
+  justify-content: center;
+  align-items: center;
 }
 
 .produtos.row {
@@ -45,15 +47,13 @@
   }
 
   .card-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;   
     justify-content: space-between;
-    /* Distribui os cards igualmente */
+    align-items: center;
   }
 
   .card {
-    width: calc(33.33% - 20px);
-    /* 20px de margem entre os cards */
+    width: calc(33.33%);
     margin-bottom: 20px;
   }
 
