@@ -59,12 +59,15 @@
 
 }
 
-/* Tablets */
-@media (max-width: 1023px) {
+/* Tablet */
+@media (max-width: 768px) {
   .carousel-inner img {
     width: 100%;
     height: auto;
     height: 20vh;
     object-fit: cover;
+  }
+  .card{
+    padding: 5%;
   }
 }
